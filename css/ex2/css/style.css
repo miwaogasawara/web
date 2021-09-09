@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+html {
+  font-size: 16px;
+}
+body{
+font-family： 'Sawarabi Gothic'、sans-serif;
+}
+h1,h2,h3{
+font-family： 'Noto Serif JP'、serif;
+}
+.blue {
+    color: blue;
+}
+.green{
+    color: rgb(43, 226, 43)
+    ;}
+.orenge{color: orangered
+    ;}
