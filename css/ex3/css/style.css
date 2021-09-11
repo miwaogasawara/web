@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(224, 172, 224);
+    background-image: url("../images/84386.jpg");
+}
+.display-inline {
+ display: inline ;
+}
+.display-inline-block {
+ display: inline-block ;
+}
+p {
+font-size: 2rem;
+ width: 100px;
+ height: 50px;
+ padding: 10px;
+ border: 10px solid rgb(0, 255, 76);
+ margin: 10px;
+ color: rgb(128, 5, 5);
+}
