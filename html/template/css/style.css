@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+html {
+    font-size: 16px;
+ /* 見出し用 --> */
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+ /* 本文用 --> */
+p{
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+/* bodyにカラーや背景を入れる時 */
+body{
+    background-color: rgb(224, 172, 224);
+    background-image: url("../images/84386.jpg");
+}
+
+/*displayに使うとき  */
+.display-inline {
+ display: inline ;
+}
+.display-inline-block {
+ display: inline-block ;
+}
+
+/*Pタグのフォントや色や囲み線や余白、カラー設定  */
+p {
+font-size: 2rem;
+ width: 100px;
+ height: 50px;
+ padding: 10px;
+ border: 10px solid rgb(0, 255, 76);
+ margin: 10px;
+ color: rgb(128, 5, 5);
+}

@@ -27,11 +27,16 @@ html{
 
 }
 body{
-    font-family: "Sawarabi + Gothic";
+    font-family: 'Kosugi Maru', sans-serif;
     margin-bottom:1.6;
+
+}
+
+h1{
+    font-size: 2rem;
 }
 h2,h3,{
-   font-family: "Noto + Serif";
+   font-family: 'Shippori Mincho B1', serif;
 
 }
 .inline-block{
@@ -52,8 +57,17 @@ font-size:1.6;
 
 h2{
 font-size: 1.2;
+margin-top: 1;
+background-color: blueviolet;
 }
 
 p{
     line-height:1.6 ;
+}
+main{
+    margin-top: auto;
+}
+nav{
+    margin-bottom: auto;
+    background-color: aqua;
 }
