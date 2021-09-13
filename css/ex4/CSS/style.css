@@ -1,0 +1,59 @@
+@charset  "uft-8";
+
+*, *::befor, *::after{
+    box-sizing: border-box
+}
+
+.mb-1rem{
+    margin-bottom:1rem ;
+}
+/* flex コンテナの最小設定 */
+.flex {
+    display: flex;
+}
+/* flex アイテムの最小設定 */
+.item {
+    flex: auto;
+    width: 33%;
+}
+
+html{
+    font-size: 16px;
+
+}
+.container{
+    width: 90%;
+    margin:2rem auto 0;
+
+}
+body{
+    font-family: "Sawarabi + Gothic";
+    margin-bottom:1.6;
+}
+h2,h3,{
+   font-family: "Noto + Serif";
+
+}
+.inline-block{
+    display: :inline-block;
+    width :24%;
+    :vertical-aligh: top;
+}
+.inline-block{
+    display: :block
+    text-decoration;none
+    text-align:center;
+    color :black;
+}
+
+h1{
+font-size:1.6;
+}
+
+h2{
+font-size: 1.2;
+}
+
+p{
+    line-height:1.6 ;
+}
