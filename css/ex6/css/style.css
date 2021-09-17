@@ -91,15 +91,15 @@ About
 }
 
 /*-------------------------------------------
-Works
+Event
 -------------------------------------------*/
-#works ul {
+#event ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-#works li {
+#event li {
   width: 31%;
   margin-bottom: 23px;
 }
@@ -205,15 +205,24 @@ SP
   }
 
   /*-------------------------------------------
-  Works
+  Event
   -------------------------------------------*/
-  #works ul {
+  #event ul {
     flex-direction: column;
   }
-  #works li {
+  #event li {
     width: 100%;
   }
 
+  /* ....................................................
+  contents
+  ........................................................ */
+   #event ul {
+    flex-direction: column;
+  }
+  #event li {
+    width: 100%;
+  }
   /*-------------------------------------------
   News
   -------------------------------------------*/
