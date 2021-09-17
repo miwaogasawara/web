@@ -2,10 +2,10 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>My Work - Portfolio</title>
+    <title>MyFavorite</title>
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="./images/favicon.ico">
+    <!-- <link rel="shortcut icon" href="./images/favicon.ico"> -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -14,19 +14,20 @@
 <body>
     <header id="header">
         <!-- LOGOは削除して新たにイラストを入れる？ -->
-        <h1 class="site-title"><a href="index.html"><img src="./images/logo.svg" alt="My style"></a></h1>
+        <h1 class="site-title">MyFavorite</h1>
+        <!-- <a href="index.html"><img src="./images/logo.svg" alt="My style"></a> -->
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#event">Event</a></li>
+                <li><a href="#content">Content</a></li>
                 <li><a href="#news">News</a></li>
-                <!-- NEWSとContactを入れ替えてContactをコンテンツにするか？ -->
                 <li><a href="#contact">Contact</a></li>
 
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img class="icon" src="./images/icon-instagram.png" alt="インスタグラム">
-                </a>
-                </li>
+                <!-- <li><a href="https://www.instagram.com/" target="_blank"> -->
+                <!-- <img class="icon" src="./images/icon-instagram.png" alt="インスタグラム"> -->
+                <!-- </a> -->
+                <!-- </li> -->
             </ul>
         </nav>
     </header>
@@ -34,9 +35,8 @@
     <main>
         <div id="mainvisual">
             <picture>
-                <source media="(max-width: 600px)" srcset="./images/IMG_0710.PNG">
-                <!-- pc サイズの写真を入れる -->
-                <img src="./images/IMG_0710.PNG" alt="テキストテキストテキスト">
+                <source media="(max-width: 600px)" srcset="./images/marason2.PNG">
+                <img src="images/marason2.PNG" alt="オリンピック男子マラソン">
             </picture>
         </div>
 
@@ -44,44 +44,72 @@
             <h2 class="sec-title">About</h2>
             <ul>
                 <li>M.Ogasawara</li>
-                <li>Toyohira, Sapporo, Hokkaido 062-0031 Japan</li>
+                <li>nakanoshima,Toyohiraku, Sapporo, Hokkaido 062-00xx Japan</li>
                 <li>tel: 080-0000-0000</li>
                 <li>url: www.xxxxxx.jp</li>
                 <li>mail: xxx@xxxxxx.jp</li>
             </ul>
             <p>
-                豊平区住民になって、31年になりました。隣接している中島公園周辺にはとても愛着があります。
-                このページでは、最近、私を元気にしているアイテムをいくつか紹介いたします。気に入っても
-                「いいねボタン」はありませんから、直接声をかけてくださいね。
+                豊平区住民になって、31年になりました。豊平川を挟んで隣接している中島公園周辺にはとて
+                も愛着があります。今年は、Tokyo2020オリンピックが開催されました。物議を醸す点が多々
+                ありましたが、スポーツは応援したくなる魔力がありますね。このページでは、最近、私を元気
+                にしているアイテムをいくつか紹介いたします。気に入っても「いいねボタン」はありませんか
+                ら、直接声をかけてくださいね。
             </p>
         </section>
 
         <section id="event" class="wrapper">
             <h2 class="sec-title">Event</h2>
             <ul>
-                <li><img src="./images/tokyo2020.png" alt="東京2020"></li>
-                <li><img src="./images/sukebo.png" alt="スケボー"></li>
-                <li><img src="./images/safin.png" alt="サーフィン"></li>
-                <li><img src="./images/swiming.png" alt="水泳"></li>
-                <li><img src="./images/takkyu.png" alt="卓球"></li>
-                <li><img src="./images/marason.png" alt="マラソン"></li>
+                <li><img width="200" height="140" src="./images/tokyo2020.png" alt="東京2020"></li>
+                <li><img width="200" height="140" src="./images/sukebo.png" alt="スケボー"></li>
+                <li><img width="200" height="140" src="./images/safin.png" alt="サーフィン"></li>
+                <li><img width="200" height="140" src="./images/swiming.png" alt="水泳"></li>
+                <li><img width="200" height="140" src="./images/takkyu.png" alt="卓球"></li>
+                <li><img width="200" height="140" src="./images/marason.png" alt="マラソン"></li>
+            </ul>
+        </section>
+        <section id="content" class="wrapper">
+            <h2 class="sec-title">Content</h2>
+            <ul>
+                <li><img src="./images/kaneko.PNG" alt="金子先生"></li>
+                <li><img src="./images/ohtani2.PNG" alt="大谷選手"></li>
+                <li><img src="./images/panda3.JPG" alt="双子パンダ"></li>
+                <li><img src="./images/madon.PNG" alt="マドン監督"></li>
+                <li>
+                    <!-- Call utube -->
+                    <iframe width="273" height="155" src="https://www.youtube.com/embed/KJCVWgynp1M?end=300 "
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </li>
+                <li>
+                    <!-- 2pm Utube -->
+                    <iframe width="273" height="155" src="https://www.youtube.com/embed/9VQ1641-kgI?end=252"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </li>
             </ul>
         </section>
 
         <section id="news" class="wrapper">
             <h2 class="sec-title">News</h2>
-            <!-- トピックを新に入れる -->
+            <!-- トピックを入れる -->
             <dl>
-                <dt>2020.XX.XX</dt>
-                <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
-                <dt>2020.XX.XX</dt>
-                <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
-                <dt>2019.XX.XX</dt>
-                <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
-                <dt>2019.XX.XX</dt>
-                <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
-                <dt>2019.XX.XX</dt>
-                <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+
+                <dt>2021.9.14</dt>
+                <dd>【上野動物園双子パンダ】6月23日に誕生したパンダはよちよち歩きを始めました。</dd>
+                <dt>2021.9.14</dt>
+                <dd>【プログラミング科初テスト】6回のテストの1回目を受けました。</dd>
+                <dt>2021.9.10</dt>
+                <dd>【大谷翔平選手】44号ソロホームラン。2番ピッチャー出場の第一打席でした。</dd>
+                <dt>2021.8.24</dt>
+                <dd>【祝入学】北関東学院JAVAプログラミング科入学しました。</dd>
+                <dt>2021.8.8</dt>
+                <dd>【オリンピック男子マラソン】札幌で開催。大迫傑選手、第6位。</dd>
             </dl>
         </section>
 
@@ -102,7 +130,7 @@
     </main>
 
     <footer id="footer">
-        <p>&copy; 2021 My Style</p>
+        <p>&copy; 2021 MyFavorite</p>
     </footer>
 
 </body>

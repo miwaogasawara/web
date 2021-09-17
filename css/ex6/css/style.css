@@ -46,6 +46,10 @@ li {
   margin: 0 auto;
   padding: 0 4%;
 }
+#header h1{
+    font-size: 2rem;
+    font-style: italic;
+}
 #header ul {
   display: flex;
   padding: 10px 0;
@@ -103,7 +107,19 @@ Event
   width: 31%;
   margin-bottom: 23px;
 }
-
+/*.....................................................
+Content
+ .......................................................*/
+ #content ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+ #content li {
+  width: 31%;
+  margin-bottom: 23px;
+}
 /*-------------------------------------------
 News
 -------------------------------------------*/
@@ -215,12 +231,12 @@ SP
   }
 
   /* ....................................................
-  contents
+  content
   ........................................................ */
-   #event ul {
+   #content ul {
     flex-direction: column;
   }
-  #event li {
+  #content li {
     width: 100%;
   }
   /*-------------------------------------------
@@ -251,4 +267,5 @@ SP
   #contact dd {
     width: 100%;
   }
+
 }
