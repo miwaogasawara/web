@@ -47,8 +47,9 @@ li {
   padding: 0 4%;
 }
 #header h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
+
 }
 #header ul {
   display: flex;
@@ -97,26 +98,26 @@ About
 /*-------------------------------------------
 Event
 -------------------------------------------*/
-#event ul {
+#favorite1 ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
-#event li {
+#favorite1 li {
   width: 31%;
   margin-bottom: 23px;
 }
 /*.....................................................
 Content
  .......................................................*/
- #content ul {
+ #favorite2 ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
- #content li {
+ #favorite2 li {
   width: 31%;
   margin-bottom: 23px;
 }
@@ -221,22 +222,22 @@ SP
   }
 
   /*-------------------------------------------
-  Event
+  favorite1
   -------------------------------------------*/
-  #event ul {
+  #favorite1 ul {
     flex-direction: column;
   }
-  #event li {
+  #favorite1 li {
     width: 100%;
   }
 
   /* ....................................................
-  content
+  favorite2
   ........................................................ */
-   #content ul {
+   #favorite2 ul {
     flex-direction: column;
   }
-  #content li {
+  #favorite2 li {
     width: 100%;
   }
   /*-------------------------------------------
