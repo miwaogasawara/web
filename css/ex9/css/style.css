@@ -235,6 +235,7 @@ text-align: justify;
   margin-bottom: 30px;
   text-align: justify;
 }
+
 #item .item-text dl {
   display: flex;
   flex-wrap: wrap;
