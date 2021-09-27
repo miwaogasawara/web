@@ -73,7 +73,8 @@ li {
 Mainvisual
 -------------------------------------------*/
 #mainvisual {
-  margin-bottom: 80px;
+margin: 0 300px 80px 300px;
+  /* margin-bottom: 80px; */
 }
 #mainvisual img {
   width: 100%;
@@ -220,7 +221,13 @@ SP
   #header li:first-child {
     margin-left: 0;
   }
-
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+ #mainvisual{
+     margin: auto;
+     width: 100%;
+}
   /*-------------------------------------------
   favorite1
   -------------------------------------------*/
