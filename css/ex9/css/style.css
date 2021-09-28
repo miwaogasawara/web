@@ -15,17 +15,9 @@ body {
   position: relative;
 }
 a {
-  color: #333;
-  /* text-decoration: none; */
-}
+  color: rgb(88, 103, 238);
   transition: all 0.5s;
 
-  a[href^="http://"]:after,
-a[href^="https://"]:after
-{
-	content: url(../images/window-ic.png);
-	vertical-align: middle;
-	margin: 0 2px;
 }
 
 a:hover {
@@ -56,11 +48,14 @@ li {
   display: block;
 }
 .page-title {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   font-weight: normal;
   margin-bottom: 30px;
 }
 
+.product-list p{
+    text-decoration: none;
+}
 /*-------------------------------------------
 ヘッダー
 -------------------------------------------*/
