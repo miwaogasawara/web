@@ -16,9 +16,18 @@ body {
 }
 a {
   color: #333;
-  text-decoration: none;
-  transition: all 0.5s;
+  /* text-decoration: none; */
 }
+  transition: all 0.5s;
+
+  a[href^="http://"]:after,
+a[href^="https://"]:after
+{
+	content: url(../images/window-ic.png);
+	vertical-align: middle;
+	margin: 0 2px;
+}
+
 a:hover {
   opacity: 0.7;
 }
@@ -234,11 +243,16 @@ text-align: justify;
 #item .item-text p {
   margin-bottom: 30px;
   text-align: justify;
+  text-decoration-line: underline blue;
+
 }
 
 #item .item-text dl {
   display: flex;
   flex-wrap: wrap;
+}
+#item.item-text a{
+    text-decoration-line: underline blue;
 }
 #item .item-text dt {
   width: 30%;
