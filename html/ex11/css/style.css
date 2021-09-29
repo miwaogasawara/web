@@ -549,7 +549,7 @@ infinite：アニメーションの繰り返し回数(無限に繰り返す)
 linear：アニメーションの変化（開始から終了まで一定に変化）
 */
 #summary {
-  background: url("../img/bg.gif") repeat;
+  background: url("../images/bg.gif") repeat;
   animation: fall 10s infinite linear;
   padding: 60px 0;
   margin-bottom: 120px;
